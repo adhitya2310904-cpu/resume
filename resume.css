@@ -1,104 +1,92 @@
-   *{
-        margin: 10px;
-        
-        
-       
-    }
-    body {
-    margin: 10px;
-    border: 3px solid black;
-    min-height: calc(100vh - 20px);
-    box-sizing: border-box;
-    background-color: beige;
+* {
+  margin: 10px;
 }
-    .main{
-        display: inline;
-    }
-    .mail{
-        display: inline;
-        margin: 1px;
-        padding-right: 5px;
-    }
-    .number{
-        display: inline;
-        margin: 1px;
-        
-    }
-    .linkedin{
-        display: inline;
-        margin: 1px;
-        
-        padding: 5px;
-        border-radius: 20%;
-        
-    }
-    button{
-        background-color: brown;
-        border-radius: 15%;
-    }
-    a{
-        color: white;
-    }
-    
-    h3{
-        margin-bottom: 5px;
+body {
+  margin: 10px;
+  border: 3px solid black;
+  min-height: calc(100vh - 20px);
+  box-sizing: border-box;
+  background-color: beige;
+}
+.main {
+  display: inline;
+}
+.mail {
+  display: inline;
+  margin: 1px;
+  padding-right: 5px;
+}
+.number {
+  display: inline;
+  margin: 1px;
+}
+.linkedin {
+  display: inline;
+  margin: 1px;
 
-    }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            
-        }
+  padding: 5px;
+  border-radius: 20%;
+}
+button {
+  background-color: brown;
+  border-radius: 15%;
+}
+a {
+  color: white;
+}
 
-        td {
-            border: 1px solid black;
-            
-            text-align: center;
-        }
-        
+h3 {
+  margin-bottom: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
+td {
+  border: 1px solid black;
 
+  text-align: center;
+}
 
 .c1 {
-            
-            padding: 20px;
-           
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            background-color: white;
-            margin: 20px;
-        }
-      
-       .c2 {
-            width: 50%;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            background-color: white;
-            margin: 20px;
-        }
-      .cards-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
+  padding: 20px;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin: 20px;
 }
 
-.project-section{
-    width: 70%;
+.c2 {
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin: 20px;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
 }
 
-.softskill-section{
-    width: 25%;
+.project-section {
+  width: 70%;
 }
 
-.c3,.c4{
-    width: 100%;
-    box-sizing: border-box;
-    background-color: white;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 20px;
+.softskill-section {
+  width: 25%;
 }
 
-      
+.c3,
+.c4 {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px;
+}
