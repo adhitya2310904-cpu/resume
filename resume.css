@@ -16,12 +16,17 @@
     }
     .mail{
         display: inline;
+        margin: 1px;
+        padding-right: 5px;
     }
     .number{
         display: inline;
+        margin: 1px;
+        
     }
     .linkedin{
         display: inline;
+        margin: 1px;
         
         padding: 5px;
         border-radius: 20%;
@@ -95,4 +100,5 @@
     margin: 5px;
     padding: 20px;
 }
+
       
