@@ -40,7 +40,7 @@
 
     }
         table {
-            width: 30%;
+            width: 100%;
             border-collapse: collapse;
             
         }
@@ -51,6 +51,7 @@
             text-align: center;
         }
         
+
 
 
 .c1 {
@@ -64,28 +65,34 @@
         }
       
        .c2 {
-            
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            background-color: white;
-            margin: 20px;
-        }
-        .c3 {
-            
-            padding: 20px;
             width: 50%;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            background-color: white;
-            margin: 20px;
-        }
-        .c4 {
-            
             padding: 20px;
-            width: 20%;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             background-color: white;
             margin: 20px;
         }
+      .cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.project-section{
+    width: 70%;
+}
+
+.softskill-section{
+    width: 25%;
+}
+
+.c3,.c4{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+}
+      
